@@ -32,6 +32,7 @@ export const startSendOTPConsumer = async () => {
                         auth:{
                             user: process.env.USER,
                             pass: process.env.PASSWORD,
+
                         }
                     });
                     await transporter.sendMail({
