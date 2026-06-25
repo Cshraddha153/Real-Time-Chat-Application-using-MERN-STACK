@@ -3,9 +3,15 @@
 # Backend env
 backend/.env
 
+backend/mail/.env
+backend/user/.env
+
 # Node modules
 backend/user/node_modules/
 backend/user/dist/
+
+backend/mail/node_modules/
+backend/mail/dist/
 
 
 # Build folders
