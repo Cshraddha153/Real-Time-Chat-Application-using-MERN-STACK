@@ -13,7 +13,7 @@ export const connectRabbitMQ = async () => {
         });
 
         channel = await connection.createChannel();
-        console.log("Connected to RabbitMQ");
+        console.log("✅ Connected to RabbitMQ");
 
     } catch (error) {
         console.log("Failed to connect to RabbitMQ", error);
