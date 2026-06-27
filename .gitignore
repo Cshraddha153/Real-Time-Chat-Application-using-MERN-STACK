@@ -5,6 +5,7 @@ backend/.env
 
 backend/mail/.env
 backend/user/.env
+backend/chat/.env
 
 # Node modules
 backend/user/node_modules/
@@ -12,6 +13,9 @@ backend/user/dist/
 
 backend/mail/node_modules/
 backend/mail/dist/
+
+backend/chat/node_modules/
+backend/chat/dist/
 
 
 # Build folders
