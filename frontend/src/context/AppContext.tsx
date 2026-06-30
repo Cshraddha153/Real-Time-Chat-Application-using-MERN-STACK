@@ -11,8 +11,8 @@ import Cookies from "js-cookie";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 
-export const user_service = "http://56.228.2.159:5000";
-export const chat_service = "http://56.228.2.159:5002";
+export const user_service = "https://shraddhachat.duckdns.org/api";
+export const chat_service = "https://shraddhachat.duckdns.org/chat";
 
 export interface User {
   _id: string;
