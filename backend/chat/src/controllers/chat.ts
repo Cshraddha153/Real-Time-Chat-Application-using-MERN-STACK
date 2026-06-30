@@ -1,6 +1,6 @@
 import axios from "axios";
 import TryCatch from "../config/TryCatch.js";
-import type{ AuthenticatedRequest } from "../middleware/isAuth.js";
+import type { AuthenticatedRequest } from "../middlewares/isAuth.js";
 import { Chat } from "../models/Chat.js";
 import { Messages } from "../models/Messages.js";
 import { getRecieverSocketId, io } from "../config/socket.js";
@@ -321,9 +321,6 @@ export const getMessagesByChat = TryCatch(
     }
   }
 );
-
-
-
 
 
 
